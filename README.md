@@ -68,15 +68,6 @@ The Project Management API is designed to facilitate the management of projects 
 | **Update a project**     | `PUT`       | `/projects/{project_id}`   | Update a specific project by ID   |
 | **Delete a project**     | `DELETE`    | `/projects/{project_id}`   | Delete a specific project by ID   |
 
-### Ticket Endpoints
-
-| Operation                | HTTP Method | Endpoint                   | Description                |
-|--------------------------|-------------|----------------------------|----------------------------|
-| **Create a new ticket**  |             |                            |                            |
-| **Retrieve a ticket**    |             |                            |                            |
-| **Update a ticket**      |             |                            |                            |
-| **Delete a ticket**      |             |                            |                            |
-
 ## Running the Application Locally
 To run the application locally, make sure you have Python installed. Then follow these steps at the root directory of the project:
 

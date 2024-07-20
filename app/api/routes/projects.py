@@ -30,3 +30,4 @@ async def update_project(project_id: int, project: ProjectCreate, db: Session = 
 async def delete_project(project_id: int, db: Session = Depends(get_db)):
     crud.delete_project(db, project_id)
     return {'message': f'Project with id {project_id} deleted'}
+
