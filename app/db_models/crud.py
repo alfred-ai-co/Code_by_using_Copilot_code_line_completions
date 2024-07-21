@@ -3,3 +3,6 @@ from app.db_models.base import Project, Ticket
 
 
 # CRUD operations for Project
+
+
+# CRUD operations for Ticket
